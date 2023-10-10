@@ -3,10 +3,12 @@ program entry point
 """
 
 def main():
+    """
+    program entry point
+    """
 
-    print("this line is waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay too long and github workflows should flag it on the PR")
+    print("this is a normal sized line so the linter should be okay")
 
- 
 
 if __name__ == "__main__":
     main()
